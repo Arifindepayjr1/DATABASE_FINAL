@@ -1,0 +1,19 @@
+.admin-font {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  text-decoration: none;
+}
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
